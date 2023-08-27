@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { View, Text,TouchableOpacity, StyleSheet} from 'react-native';
 import { useSelector, useDispatch } from 'react-redux';
-import { increment, decrement } from '../store/counterSlice'
+import { increment, decrement } from '../store/counterSlice';
 
 
 function HomeScreen() {
